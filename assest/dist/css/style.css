@@ -1,0 +1,608 @@
+/*profile pic css*/
+.update-profile-pic {
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    height: 120px;
+    margin: 0 auto 25px;
+    position: relative;
+    width: 120px;
+}
+
+.profile-managment-box img {
+    height: 100%;
+    width: 100%;
+}
+
+.update-profile-pic img {
+    border-radius: 50%;}
+
+.update-profile-pic input[type="file"] {
+    border-radius: 50%;
+    height: 112px;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 112px;
+    z-index: 9;
+}
+
+.update-profile-pic i {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #49adc6;
+    height: 28px;
+    padding: 4px 8px;
+    position: absolute;
+    right: 11px;
+    text-align: center;
+    top: 85px;
+    width: 28px;
+}
+
+   input.attachfile{  position: absolute;
+    opacity: 0; 
+    width: 27px;
+    height: auto;
+    top: 0;
+    left: -2px;
+}
+
+
+
+
+
+/*--------------------------------*/
+/* -------------header----------- */
+.main-header .nav.custom-navbar {min-height:80px;}
+.main-sidebar.custom-sidebar{ padding-top: 80px;}
+.main-header .logo.logo-color{background:#222d32; height: 80px; line-height: 80px;border-bottom:1px solid #5b5b5b;padding: 18px 0 18px 15px;}
+.website-logo { max-width: 100px;}
+.website-logo img {  height: auto; width: 100%;}
+.main-header .logo.logo-color:hover{background:none;}
+.skin-blue .main-header .navbar.custom-navbar{background:#36474f ;}
+ .user-menu.custom-user-menu  .user-image{width:50px;height:50px;}
+ .user-menu.custom-user-menu  .dropdown-toggle{line-height:50px;}
+.main-header .navbar .nav   li   .notification-dropdown  a  .label.custum-label-not { background: #ff0000!important;border-radius: 50%;font-size: 10px;height: 15px;line-height: 0.9;padding: 2px;position: absolute;right: 6px;text-align: center;top: 0px; width: 15px;}
+.notifications-menu .fa.custom-bell{font-size:18px;color:#fff;}
+.notification-dropdown  .btn{background-color:#36474f;}
+ul.notification-menu{padding:0;}
+.notification-menu{background-color:#ddd;border-color:#a4a4a4;min-width:230px;max-width:320px;overflow-y:auto;height:320px;width:auto;}
+.notification-menu li a{display:block;padding:10px;color:#000;font-size:14px;word-wrap: break-word;}
+.notification-menu li a:hover{text-decoration:none;color:#000;background-color:#688744;}
+.notification-menu li{border-bottom:1px solid;list-style-type:none}
+.notification-menu li:last-child{border-bottom:none;}
+.custome-dropdown{border-radius:0;margin:6px 0 0;left:auto; right:-6px; padding:0px; top:calc(100% + 5px);border:1px solid #ddd;}
+.custome-dropdown::before{border-color:#ddd transparent;border-style:solid;border-width:0px 8px 14px 9px;content:"";position:absolute;right:19px;top:-15px;}
+.navbar-nav > li.notifications-menu{padding-top:25px;}
+.navbar-nav .open .custome-dropdown{position:absolute;}
+
+/*=================validation error message==============*/
+.error-txt{color: #ff0202; font-size: 14px;margin-right: 15px;}
+/*=================validation error message==============*/
+
+/* -------sidebar-------- */
+/* .main-sidebar.custom-sidebar{padding-top:100px} */
+.main-sidebar.custom-sidebar li{border-bottom:1px solid #5b5b5b;}
+.sidebar-menu.custom-sidebar-menu li a:hover,.sidebar-menu.custom-sidebar-menu li a:active{background:#36474f;}
+.custom-sidebar-menu .active.treeview a{background:#36474f!important;}
+.treeview a img{width:20px;}
+.treeview a span{padding-left:10px;}
+.sidebar-toggle.modify-sidebar{line-height: 50px;}
+.skin-blue  .sidebar-toggle.modify-sidebar:hover,.skin-blue .sidebar-toggle.modify-sidebar:focus,.skin-blue .sidebar-toggle.modify-sidebar:active{background:#688744!important;}
+.navbar-custom-menu {margin-right: 10px;}
+.hidden-xs { font-size: 17px;}
+.fa.fa-caret-down.fa-caret-down-custm{font-size: 18px;margin-left: 10px;}
+.sidebar-mini.sidebar-collapse .main-header .logo > .logo-mini.logo-mini{margin-top:10px;}
+span.logo-mini img{max-width: 50px;}
+
+
+/* ------------Dashboard-------------- */
+.content-wrapper.color{background:#fff;}
+.content-wrapper .content {padding:30px;}
+.global-box{padding:30px;}
+.form-control.common-search-bar{height:40px;border:1px solid #000;border-right:0px;font-size:16px;}
+ .input-group-btn{height:40px;border:1px solid #000;border-left:0px;}
+ .btn.search-icon-btn { background-color: #ffffff;}
+.btn.search-icon-btn:active,.btn.search-icon-btn:hover,.btn.search-icon-btn:focus{ box-shadow:none; outline:none;}
+.form-control.common-select-box{ -moz-appearance: none;-webkit-appearance:none;background:url("../img/drop-down.png") no-repeat 90% 45%; height: 40px; padding-left: 10px;width: 100%;border:1px solid #000;}
+.dashboard-column {background: #ffffff none repeat scroll 0 0;  border: 1px solid #dddddd;padding: 20px; width: 100%;margin-bottom:30px;	height:125px;display:table;color:#fff;}
+.column-image.column-cell {text-align:center;}
+.column-cell {display:table-cell;vertical-align: middle;padding-left:15px;width:50%;}
+.dashboard-column h2{font-size:28px;margin:0 0 10px;font-weight:600;line-height: 22px;}
+.dashboard-column p{margin:0;font-size:18px;font-weight:600;}
+.dashboard-column.color1{background:#37474f;}
+.dashboard-column.color2{background:#c5ab83;}  
+.dashboard-column.color3{background:#58889c;} 
+.dashboard-inner-box .common-box-border{border:1px solid #ddd;padding:15px;margin-bottom:30px;}
+.common-box-border .heading{margin-bottom:15px;}
+.edit-heading{display:inline-block;}
+.heading .edit-heading{font-size: 18px; font-weight: 600; margin: 0px;}
+.fa.modify-filter{float:right; font-size:18px;color:#688744;}
+.common-dashboard-image-box{ overflow: hidden; text-align: center;}
+.common-dashboard-image-box img{ height: 100%;width: 100%;}  
+
+/* ----------Customers---------- */
+.top-box-border{border:1px solid #ddd;padding:20px;}
+.top-datepicker-row{margin-bottom:20px;}
+.common-button-box.left{text-align:right;}
+.btn.common-button{background:#688744;color:#fff;border-radius:0px;height:40px; padding: 6px 25px;vertical-align:top;font-size: 16px}
+.btn.common-button.grey{background:grey;}
+.table-bordered.custum-border{border-color:#ddd;}
+.table-anchor a{color:#688744;text-decoration:underline;}
+.date-block .date{position:relative;padding-right:40px;}
+.date .datepicker-img{position:absolute;right:0px; top: 10px;width:20px;height:20px;}
+.form-control.datepicker{height: 40px; padding-left: 10px;width: 100%;border:1px solid #000;border-radius:0px;}
+.form-control.datepicker1{height: 40px; padding-left: 10px;width: 100%;border:1px solid #000;border-radius:0px;}
+.common-button.grey.mg20{margin-left:20px;}
+
+/* ------common-table---------- */
+ .common-table-inner tr:nth-child(even){background:#ebebeb;}
+.common-table-inner  td{text-align:center;padding:12px;   font-size: 16px;}
+.common-table-head th{ background: -webkit-linear-gradient(#ebebeb, #e2e2e2, #dbdbdb);background: -o-linear-gradient(#ebebeb, #e2e2e2, #dbdbdb);
+    background: -moz-linear-gradient(#ebebeb, #e2e2e2, #dbdbdb); background: linear-gradient(#ebebeb, #e2e2e2, #dbdbdb);text-align:center;}
+.table-bordered > thead > tr > th,.table-bordered > tbody > tr > th,.table-bordered > tfoot > tr > th,.table-bordered > thead > tr > td,.table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td { border: 1px solid #ddd;}
+.table > thead > tr > th {vertical-align: middle;font-size: 16px;}
+
+
+/* =============Custom Checkbox============ */
+.global-checkbox .styled-checkbox{opacity:0;display:none;}
+.global-checkbox .styled-checkbox:checked + label::before { background-color: white;     border: 1px solid; }
+.global-checkbox .styled-checkbox + label::before {border: 1px solid #555; content: "";display: inline-block; height: 18px;
+vertical-align: middle;width: 20px;  margin-right: 8px;}
+.global-checkbox .styled-checkbox:checked + label::after {background: black none repeat scroll 0 0;box-shadow: 2px 0 0 -moz-buttondefault, 4px 0 0 black, 4px -2px 0 black, 4px -4px 0 black, 4px -6px 0 black, 4px -8px 0 black; content: "";height: 3px;left: 5px;position: absolute; top: 11px; transform: rotate(45deg); width: 2px;}
+.global-checkbox .styled-checkbox + label {cursor: pointer;padding: 0;position: relative;font-weight:400;} 
+/* =============Custom Checkbox Finish============ */
+
+.rate.fa-rupee::before, .rate.fa-inr::before {
+    content: "";
+    font-size: 13px;
+	 padding-right: 3px;
+}
+
+/*------------ Custom------------ */
+.form-control.custom-control {height: 38px; color: #000000;  border-color: #c1c5cd;font-size: 16px;}
+.content  label { font-size: 15px;  font-weight: 600;}
+.form-group.custm-group {margin-bottom: 25px;}
+.form-control.dropdownbox-custm-control {appearance: none; -webkit-appearance: none;-moz-appearance: none;
+background: rgba(0, 0, 0, 0) url("../img/drop-down.png") no-repeat scroll 96% 45%;border: 1px solid #d2d6de;display: inline-block;height: 38px;
+font-size:16px;color:#000;padding-left: 10px;width: 100%; border-color: #c1c5cd;}
+.form-control.custom-control::-moz-placeholder{color:#000;}
+ .form-control.txtarea-custom-control {color: #000000;font-size: 16px;border-color: #c1c5cd;}
+.content  option {
+    border-bottom: 1px solid #dddddd;
+    padding: 8px 12px;
+}
+.content table{min-width:1000px;}
+/* ------------------------------ */
+
+
+
+
+
+/*--------------Generate notifications  ----------------- */
+
+.notification-checkbox .global-checkbox .styled-checkbox + label.notifi{font-size: 13px;font-weight: 400;}
+.global-checkbox .styled-checkbox + label.notifi::before{vertical-align:sub;  height: 17px; margin-right: 10px;width: 18px;}
+.form-control.notification-select-box {appearance: none;-webkit-appearance: none;-moz-appearance:none;background:rgba(0, 0, 0, 0) url("../img/drop-down.png")no-repeat scroll 90% 50%;
+border:1px solid#dddddd;height: 40px;padding-left: 10px;width: 100px;margin-left:15px;display:inline-block;}
+label.custm-label { font-size: 14px;  font-weight: 400;}
+.global-checkbox .styled-checkbox:checked + label.notifi::after{   top: 7px;}
+.notification-detail  p { font-size: 16px; margin-bottom: 0;word-wrap: break-word}
+.notification-detail { border: 1px solid #000000; padding: 10px; margin: 20px 0 20px 16px;}
+.col-md-3.custm-col-grid { padding-left: 7px; padding-right: 7px;}
+.form-control.notifi-select-box {appearance: none;-webkit-appearance: none;-moz-appearance: none; background: rgba(0, 0, 0, 0) url("../img/drop-down.png") no-repeat scroll 96% 45%;border: 1px solid #000000;height: 40px;padding-left: 10px;width: 270px;display:inline-block;margin-left:15px;}
+.notifi-box-border { border: 1px solid #dddddd; padding: 20px 35px;}
+.notification-checkbox {   padding-left: 25px;}
+.expire-time-block {   margin-left: 14px;}
+label.exptime-label {  font-size: 14px;  font-weight: 400;}
+.btn.common-button.send-button , .btn.common-button.back-button{padding: 7px 45px;}
+.sendback-button { margin: 30px 0 20px;}
+/*------------------------------------------------------- */
+
+/*------------------- Fleet Driver Detail ----------------*/
+.global-box.driverdetail-block{padding:0 20px;}
+.driverid-edit .btn.common-button.edit-btn{height:35px;padding:6px 30px;}
+.driverid { font-size: 20px;font-weight: 600;}
+.driverid-edit {  margin: 0 0 25px;}
+.driver-profile-block{border-top:1px solid #000;padding:20px 0 0;}
+.driver-img {border-radius: 50%;height: 120px;margin: 0 auto;overflow: hidden;width: 120px;}
+.driver-name label {display: block;font-size: 20px;font-weight: 600;text-align: center;margin:5px 0 0; }
+.driver-img-name{margin:15px 0;}
+.driver-img img {height: auto;width: 100%;}
+.form-middlepart {border-bottom: 1px solid #dddddd;border-top: 1px solid #dddddd;padding: 35px 0 15px;}
+.toppart {padding: 0px 0 10px;}
+.form-toppart {  margin: 50px 0 10px;}
+.form-bottompart {margin: 35px 0 20px;}
+.btn.common-button.back-button ,  .btn.common-button.uploaddoc-button{padding: 7px 45px;}
+/* -------------------------------------------------------*/
+ 
+/*-------------- Fleet Vehicle Detail ----------------*/ 
+.vehicleid-edit .btn.common-button.edit-btn{height:35px;padding:6px 30px;}
+.vehicle-img img {height: auto;width: 100%;}
+.form-firstpart {margin: 50px 0 10px;}
+.form-secondpart { border-top: 1px solid #dddddd; padding: 35px 0 15px;}
+.global-box.vehicledetail-block {  padding: 0 20px;}
+.vehicleid-edit {  margin: 0 0 25px;}
+.vehicle-profile-block { border-top: 1px solid #000000;  padding: 20px 0 0;}
+.vehicle-img-name {   margin: 15px 0;}
+.vehicleid {  font-size: 20px;  font-weight: 600;}
+.vehicle-img {border-radius: 50%;height: 120px;margin: 0 auto;overflow: hidden;width: 120px; }
+.vehicle-name label {display: block;font-size: 20px;font-weight: 600;margin: 5px 0 0;text-align: center; }
+ .input-icon  span {
+    position: absolute;
+    right: 0;
+    top: 7px;
+}
+.input-icon {
+    padding-right: 32px;
+    position: relative;
+}
+/*--------------------------------------------*/ 
+ 
+/*-------------- Vendor Detail ----------------*/
+
+.vehicle-detail-block { padding: 20px 0 0;}
+.vendorname {   font-size: 18px;  margin-left: 15px;  font-weight: 600;}
+.fleet-size {   min-height: 80px;}
+.vendor-map {   height: 347px;   width: 100%;}
+
+/* ------------------------------------------------ */ 
+ 
+/*------------- fleet driver management -------------*/
+.global-box.drivermng-box {padding: 0 20px;}
+.drivermng-box  h3 {font-size: 22px;font-weight: 600;margin-bottom: 25px;margin-top: 0;}
+.tab-menu-block {margin: 25px 0 30px;}
+.custm-nav-pills li a{background-color:#eee;font-size:16px;font-weight:600;}
+.custm-nav-pills.nav-pills > li.active > a, .custm-nav-pills.nav-pills > li.active > a:focus, .custm-nav-pills.nav-pills > li.active > a:hover
+{background-color:#688744;}
+.custm-nav-pills.nav-pills > li.active > a, .custm-nav-pills.nav-pills > li.active > a:hover, .custm-nav-pills.nav-pills > li.active > a:focus
+{border-top-color:#688744;}
+.custm-nav-pills li a:hover{background-color:#eee;}
+.common-button-box.addtruck-btn {margin: 10px 0 30px;text-align: right;}
+.form-control.tructype-select-box{-moz-appearance: none;font-size:16px; background: rgba(0, 0, 0, 0) url("../img/drop-down.png") no-repeat scroll 96% 45%; }
+.form-control.tructype-select-box:focus{border-color:#ccc;}
+/*----------------------------------------------*/ 
+ 
+/* ---------------Account-not-yed-billed ----------*/
+.custm-ellipsis.fa-ellipsis-v::before{vertical-align:middle;color:#c2c2c2;}
+.custom-dropdown .dropbtn {color: white;padding:2px 3px;border: none;cursor: pointer;}
+.dropdown.custom-dropdown {position: relative;display: inline-block;  padding-left:10px;}
+.custom-dropdown .dropdown-content {background-color: #f9f9f9;border-radius: 5px;border: 1px solid #ddd;min-width: 145px;position: absolute;right:28px;
+top: -3px;z-index: 1;display: none;}
+
+.table tr:last-child td .custom-dropdown .dropdown-content{top:auto;bottom:0;} 
+.table tr:last-child td .dropdown-content::before{top:auto;bottom:10px;}
+.table tr:last-child td .dropdown-content::after{top:auto;bottom:7px;}
+
+.table tr:nth-last-child(2) td .custom-dropdown .dropdown-content{top:auto;bottom:0;} 
+.table tr:nth-last-child(2) td .dropdown-content::before{top:auto;bottom:10px;}
+.table tr:nth-last-child(2) td .dropdown-content::after{top:auto;bottom:7px;}
+
+
+.dropdown-content::after {border-bottom: 13px solid rgba(0, 0, 0, 0);border-left: 13px solid #dddddd;border-top: 13px solid rgba(0, 0, 0, 0);content: "";
+position: absolute;right: -13px;top: 7px;}
+.dropdown-content::before {border-bottom: 10px solid rgba(0, 0, 0, 0);border-left: 10px solid #ffffff;border-top: 10px solid rgba(0, 0, 0, 0);
+content: "";position: absolute;right: -10px;top: 10px;z-index: 9;}
+.download {border-bottom: 1px solid #ddd;border-top: 1px solid #ddd;}
+.custom-dropdown .dropdown-content a {color: black;padding:8px 10px;text-decoration: none;display: block;text-align: left;}
+.custom-dropdown .dropdown-content a:hover {background-color: #f1f1f1}
+.custom-dropdown.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #fff;}
+/* ---------------------------------------------*/
+ 
+ /* ---------------Customer-detail ------------*/
+.custm-nav li a{font-size:18px;color:#000;padding:10px 40px;}
+ .custm-nav.nav > li > a:hover,  .custm-nav.nav > li > a:active,  .custm-nav.nav > li > a:focus{color:#000;}
+.custm-nav.nav-tabs { border-bottom: 1px solid #000000;}
+.custm-nav.nav-tabs.nav  > li.active > a, .custm-nav.nav-tabs.nav > li > a:focus, .custm-nav.nav-tabs.nav > li > a:hover{color:#000;
+border-bottom-color: #fff;border-top-color: #000;border-left-color: #000;border-right-color: #000;}
+.custm-nav.nav-tabs > li > a{margin-right:10px;}
+.custm-nav.nav-tabs li a:hover{border-color:#fff #fff #000;}
+.custm-nav{padding-left:30px;}
+.custm-nav.nav-tabs li a{border-radius:0;}
+.customer-table-detail {   margin: 0 0 25px;}
+.customer-name{font-size:19px; font-weight:600;}
+.customer-search { margin: 15px 0;}
+.destination > li {  margin: 0 0 10px;padding:0 0 0 10px;}
+.destination{margin-bottom:0;  padding-left: 12px;}
+.customerdetail-map {height: 440px;width: 100%;max-width: 598px;margin: 0 auto;}
+.warehouse-map img {height:277px;width: 100%;}
+.warehouse-map {margin: 0 auto;max-height: 275px;max-width: 598px;}
+.form-bottompart  h4  , .form-bottompart2  h4{ font-weight: 600;  margin: 0 0 20px 15px; font-size:21px;}
+.warehouse-block { margin: 20px 0;}
+.form-bottompart2 {   border-top: 1px solid #dddddd;   padding: 15px 0;}
+ .trips-form-block {  margin: 50px 0 0;}
+ .documents   a {color: #688744;   text-decoration: underline;	font-size:16px;}
+.form-middlepart ul.documents{padding-left:0; text-align:center;}
+.contract-detail-formfield   label	{line-height: 34px; font-weight:400;}
+.contract-detail-formfield  .radio-rate { line-height: 45px;}
+.contract-detail-block {margin: 50px 0 0;}
+ .payment-table-detail {margin: 20px 0 0;}
+ .sort-by{margin: 20px  0;}
+.customerform-fix{margin-left:55px;}
+.contract-formfield {margin: 40px 0 0;}
+.detention {min-height: 80px;}
+.modeofpay {min-height: 70px;}
+.contractform-partition {border-bottom: 1px solid #dddddd;padding-bottom:20px;}
+.termsandconditn ol li {font-size: 16px;}
+.termsandconditn ol{padding-left:15px;}
+.termsandconditn {margin: 30px 0;}
+.btn.common-button.edit-btn{padding:5px 36px; height:38px;}
+.row.headingrow{margin:30px 0;}
+.btn.common-button.back-btn{padding:5px 30px;height:38px;}
+.ratesymbol i {left: 30px;position: absolute;top: 13px;}
+.form-control.ratecntrl.custom-control {padding: 6px 23px;position:relative;}
+.rateradio-btn {line-height: 45px;}
+.sortbyimg{float:right;}
+
+
+.order-detail-block h4{font-weight:600;font-size:20px;}
+.order-detail-block {margin: 30px 0;}
+
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+
+.marginTop{
+    margin-top: 20px
+}
+
+/*******Custom radio button*****/
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 32px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #000;
+	font-weight:400;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #c5c5c5;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #878787;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+/********************************/
+
+/* -------------footer---------- */
+
+.main-footer.modify-footer{background:#000; color:#fff;text-align:center;font-weight:500;}
+
+/* ---------------------------- */
+
+/* ------- Notification popup --------- */
+.notification-popup .modal-dialog {
+    margin: 30px auto;
+    position: absolute;
+    right: 86px;
+    top: 26px;
+    width: 100%;
+	 max-width: 340px;
+}
+.notification-popup .modal-content{border-radius:8px;}
+.notifymsg h4{text-align:center;}
+.notification-popup .modal-header{padding:5px 8px;}
+.modal-body{padding:10px 15px 15px;}
+.btn.common-button {background: #688744 none repeat scroll 0 0;border-radius: 0;color: #ffffff;font-size: 16px;vertical-align: top;}
+.btn.common-button.view{height: 35px;padding: 5px 20px;}
+.notifymsg {margin:0 0 15px;}
+.notifymsg h4 {margin: 0;text-align: center;font-weight: 600;}
+.vieworder-btn{margin:10px 0;}
+/* ------------------------------------   */
+
+.assign-confirm{margin:10px 0;}
+.orderdetail-edit {
+    border-bottom: 1px solid #000000;
+    margin: 0 0 25px;
+    padding-bottom: 30px;
+}
+
+.operator-dropdown {overflow: auto; max-height: 200px;position: absolute;z-index: 99;background: #fff;width: 92%;padding: 7px;border: 1px solid #cdcdcd;
+    border-radius: 2px;
+    box-shadow: 0 0 3px;}
+.operator-dropdown li{list-style: none;padding:5px 0px;}
+
+.operator-dropdown li a{color:#333;}
+ 
+ .notification-dropdown-bg{background-color:#F7F9FF}
+ .radio-inline.custum-radio-inline{padding:0px;}
+
+
+/* ========mobile-view=============== */
+
+@media(max-width:767px){
+
+.main-header.modify-header{ max-height: 160px;}
+.main-sidebar.custom-sidebar{padding-top: 161px;}
+.global-box{padding:0px;}
+.content-wrapper .content {padding:8px;}
+.top-datepicker-row{padding:10px;}
+.btn.common-button{padding:6px 12px;}
+.common-button-box.left.mobile {text-align:center;}
+.common-button.grey.mg20{margin-left:0px;}
+.common-button.mobile-green{margin-bottom:15px;}
+
+.navbar-nav .open .dropdown-menu.custome-dropdown{margin-top:7px;}
+.custome-dropdown::before{top:-14px;}
+.skin-blue .main-header .navbar .dropdown-menu.custome-dropdown li a {color:#000;font-size:12px;}
+.notification-menu{max-width:230px;height:250px;}
+
+
+/*----------- Custom ------------*/
+
+.form-control.custom-control{font-size:15px;}
+.content  label {font-size: 14px;}
+.form-control.dropdownbox-custm-control{font-size:14px;}
+.form-control.txtarea-custom-control{font-size:15px;}
+.form-group.custm-group {margin-bottom: 15px;}
+.table > thead > tr > th{font-size:14px;}
+.common-table-inner td{font-size:14px;}
+.btn.common-button{font-size:14px;}
+/* --------------------------- */
+
+
+/*--------Generate notifications ---------- */
+
+.notifi-box-border {padding: 5px 35px 0px 10px;}
+.notification-checkbox .global-checkbox .styled-checkbox + label.notifi{font-size:11px;}
+.global-checkbox .styled-checkbox + label.notifi::before  {height:13px;margin-right:5px;vertical-align:sub;width: 13px;}
+.notification-checkbox .global-checkbox .styled-checkbox + label.notifi{font-size:11px;}
+.form-control.notifi-select-box{width:100%;font-size:13px; height: 35px;}
+.top-datepicker-row{margin-bottom:0;}
+.notification-checkbox {padding-left: 18px;}
+.notification-detail p {font-size: 12px;}
+.global-checkbox .styled-checkbox:checked + label.notifi::after {  top: 6px;left:1px;}
+label.custm-label {font-size: 12px; margin-left: 14px;}
+label.exptime-label {font-size: 12px; margin-left: 0;}
+.notification-detail { margin: 0 0 10px 9px;padding: 5px 10px;}
+.form-control.notification-select-box{margin-left:0;font-size: 12px; height: 35px;}
+.expire-time-block { margin-left: 9px;}
+.btn.common-button.send-button{padding: 7px 20px;font-size: 13px; height: 35px;line-height: 19px;}
+.btn.common-button.back-button { font-size: 13px;height: 35px;line-height: 19px;margin-left: 8px;padding: 7px 20px;}
+.sendback-button {margin: 25px 0 0;}
+
+/*----------------------- */
+
+
+/*---------- Fleet Driver Detail --------*/
+
+.driverid {font-size: 17px; line-height: 28px;}
+.driverid-edit  .btn.common-button.edit-btn { height: 30px; padding: 3px 26px;}
+.driverid-edit { margin: 0 0 5px;}
+.driver-name label {font-size: 18px;margin: 0;}
+.btn.common-button.back-button { font-size: 15px;height: 35px;line-height: 19px;margin-left: 8px;padding: 7px 20px;}
+.btn.common-button.uploaddoc-button {font-size: 15px;height: 35px;line-height: 19px;margin-left: 8px;padding: 7px 20px; }
+.custm-nav-pills li a{font-size:13px;}
+.form-toppart { margin: 30px 0 5px;}
+.form-middlepart{padding: 25px 0 5px;}
+.form-bottompart {margin: 25px 0 15px;}
+.driver-profile-block{padding:10px 0 0;}
+.global-box.driverdetail-block {padding: 0 10px;}
+
+[type="radio"]:checked + label::before, [type="radio"]:not(:checked) + label::before{height:18px;width:18px;}
+[type="radio"]:checked + label::after, [type="radio"]:not(:checked) + label::after{top:2px;left:2px;height:10px;width:10px;}
+[type="radio"]:checked + label, [type="radio"]:not(:checked) + label {line-height: 15px;padding-left: 26px;}
+
+/* -----------------------------------*/
+
+/*------- Fleet Vehicle Detail ------*/ 
+
+.vehicleid {font-size: 17px; line-height: 28px;}
+.vehicleid-edit  .btn.common-button.edit-btn { height: 30px; padding: 3px 26px;}
+.vehicleid-edit { margin: 0 0 5px;}
+.vehicle-name label {font-size: 18px;margin: 0;}
+.form-firstpart { margin: 15px 0 5px;}
+.form-secondpart{padding: 25px 0 5px;}
+.vehicle-profile-block{padding:10px 0 0;}
+.global-box.vehicledetail-block {padding: 0;}
+.policyinput{margin:5px 0 0;}
+
+/* -----------------------------------*/
+
+/* --------Customer-detail------------ */
+.custm-nav.nav-tabs{padding-left:7px;}
+.custm-nav li a{padding:4px 7px;font-size:13px;}
+.custm-nav.nav-tabs > li > a {margin-right: 3px;}
+.customerform-fix{margin-left:0;}
+.global-box.driverdetail-block{padding:0;}
+.nav-tabs > li > a{margin-right:0;}
+.btn.common-button.edit-btn {height: 35px;padding: 5px 22px;}
+.top-datepicker-row{padding:10px 0;}
+.customer-name {font-size: 16px;}
+.documents a{font-size: 15px;}
+.form-bottompart h4, .form-bottompart2 h4{font-size: 18px;}
+.btn.common-button.back-btn {height: 32px;padding: 4px 21px;}
+.form-toppart {margin: 15px 0 10px;}
+.form-middlepart {padding: 20px 0;}
+.form-bottompart {margin: 20px 0 10px;}
+.form-bottompart2{padding:0;}
+.termsandconditn ol li{font-size:14px;}
+.termsandconditn {margin: 20px 0;}
+.row.headingrow {margin: 20px 0 10px;}
+.contractform-partition{padding-bottom:5px;}
+.contract-formfield{margin:0;}
+.contract-detail-block {margin: 20px 0 0;}
+.trips-form-block {margin: 20px 0 0;}
+.detention{min-height:0;}
+.modeofpay{min-height:0;}
+/* ------------------------------------*/
+
+/* ------- Notification popup --------- */
+.notification-popup .modal-dialog{right: 14px;top: 115px;max-width:310px;}
+/* ------------------------------- */
+
+.assign-btn{margin: 0 8px 0 0;}
+.order-edit  .common-button{height:35px; padding: 6px 23px;font-size:15px;}
+.orderdetail-edit{padding-bottom:10px;}
+.notifymsg h4{font-size:17px; padding: 5px 12px;}
+.map {margin: 0;padding: 0;width: 100%;height: 100%;}
+
+
+}
+
+@media(min-width:768px)and (max-width:1023px){
+	.form-group.formgroup-label{margin-bottom:10px;}
+	.notification-checkbox .global-checkbox .styled-checkbox + label.notifi{font-size:13px;}
+	.form-control.custom-control{font-size:13px;}
+	.documents a{font-size:13px;}
+	.form-control.dropdownbox-custm-control{font-size:13px;}
+	.content label{font-size:13px;}
+	.custm-nav {padding-left: 20px;}
+	.rateradio-btn{line-height:0;}
+	.custm-nav li a {  padding: 5px 16px;}
+	.customerform-fix {margin-left: 26px;}
+	.content-wrapper .content {padding: 10px;}
+	.global-box {padding: 10px;}		
+	.global-box.driverdetail-block {padding: 0 10px;}
+	.global-box.vehicledetail-block {padding: 0 10px;}
+	.custm-nav-pills li a{font-size:13px;}
+	
+	
+	
+}
+

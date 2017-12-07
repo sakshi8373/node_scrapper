@@ -1,0 +1,13 @@
+
+<div>
+    <h2>Search lists</h2>
+    <div id="listOfImages" class="row">
+        <div ng-repeat="keyword in keywords track by $index">
+            <div class="column">
+                <ul>
+                    <li ng-click="key(keyword._id)" style="color:red;cursor:pointer;">{{keyword.keyword}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,41 @@
+<div class="top-header">
+    <a href="#" class="brand-logo">Image Search</a>
+</div>
+<div class="container">
+    <style>
+    input[type=text] {
+        width: 130px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url('searchicon.png');
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+    }
+
+    input[type=text]:focus {
+        width: 100%;
+    }
+    </style>
+    </head>
+
+    <body>
+        <form name="myForm1" class="form-horizontal">
+            <div>
+                <div>
+                    <input name="search" class="form-control" ng-model="myForm.search" placeholder="Search for images" required/>
+                </div>
+                <!-- <input type="text" ng-model="search" placeholder="Search for images"> -->
+                <div class="form-group">
+                    <div class="col-sm-12">
+                        <button type="submit" ng-click="save(myForm)" class="btn btn-danger" ng-disabled="myForm1.$invalid">Save</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+</div>

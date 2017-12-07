@@ -1,0 +1,128 @@
+.stepprocess-bar {
+    overflow-x: auto;
+    white-space: nowrap;
+	overflow-y: hidden;
+}
+#steps {min-width:950px;}
+
+ul.progressbar {
+    counter-reset: step;
+    height: 94px;
+    margin-bottom: 10px;
+    padding: 0 0 10px;
+}
+ul.progressbar li {
+  list-style-type: none;
+  color:#000;
+  float: left;
+  position: relative;
+  text-align: center;
+  font-size: 16px;
+  
+  position:relative;
+}
+ul.progressbar li:before {
+  content: counter(step);
+  counter-increment: step;
+  color: #333;
+  width: 65px;
+  height: 65px;
+  line-height: 42px;
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+  margin: 0 auto 10px auto;
+  background: rgb(216,216,216);
+   position: relative;
+   z-index:9;
+   font-size:0;
+}
+ul.progressbar li:after {
+  content: "";
+  background:#ccc;
+  position: absolute;
+  width: 100%;
+  height:6px;
+  top:30px;
+  right: -50%;
+  z-index:0;
+}
+ul.progressbar li:last-child:after {
+  content: none;
+}
+ul.progressbar li.done:before, ul.progressbar li.done:after {
+  background:#688744;
+  color: #fff;
+
+}
+ul.progressbar li.done.current span::after {
+    background: #d8d8d8;
+    width: 50%;
+    position: absolute;
+    z-index: 9999;
+    right: -23px;
+    width: 24%;
+    height: 6px;
+    top: -42px;
+    content: "";
+}
+/* ul.progressbar li.done.current:before{background:#688744;width: 50%;} */
+
+ul.progressbar li.fail:before {
+  background: rgb(229, 48, 40)
+}
+
+ul.progressbar li img {
+    display: inline-block;
+    height: auto;
+    left: 50%;
+    max-height: 36px;
+    max-width: 26px;
+    position: absolute;
+    top: 42%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    z-index: 999;
+}
+
+.progressbar li span {
+    display: inline-block;
+    font-size: 15px;
+    left: 0;
+    line-height: 16px;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 72px;
+    white-space: normal;
+    width: 100%;
+}
+
+@media(max-width:767px){
+	/****** Cutomer-detail *************/
+	.progressbar li span{font-size:13px;  line-height: 16px;padding:0 3px;top:52px;}
+	ul.progressbar li::before{width:50px;height:50px;}
+	ul.progressbar li::after{top:22px;}
+	ul.progressbar li.done.current span::after{top:-30px;}
+	ul.progressbar{height:100px;}
+	
+	
+	/*************************************/
+	
+	
+	
+}
+@media(min-width:768px)and (max-width:1023px){
+	/****** Cutomer-detail *************/
+	ul.progressbar{height:106px;}
+	.progressbar li span{font-size:14px;top:62px;}
+	ul.progressbar li::before{height:58px;width:58px;}
+	ul.progressbar li::after{top:25px;}
+	ul.progressbar li.done.current span::after{top:-37px;}
+	
+	/*************************************/
+}
+
+
+
